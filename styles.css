@@ -66,3 +66,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
