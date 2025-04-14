@@ -11,6 +11,11 @@ body {
     background: #f4f4f4;
 }
 
+main {
+    padding: 10px 5px;
+    background: #f4f4f4;
+}
+
 /* Header styling */
 header {
     background: #333;
