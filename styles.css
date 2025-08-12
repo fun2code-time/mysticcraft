@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    background: url('https://i.imgur.com/6zH0h8p.png') repeat;
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+}
+
+h1 {
+    color: #00ff7f;
+    text-shadow: 2px 2px #000;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ff7f;
+}
+
+section {
+    padding: 40px;
+    background: rgba(0,0,0,0.6);
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #00ff7f;
+}
+
+.server-ip {
+    font-size: 1.2em;
+    background: #111;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#status {
+    margin-top: 20px;
+}
+
+#motd, #players {
+    font-size: 0.9em;
+    color: #00ff7f;
+    text-shadow: 1px 1px #000;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    font-size: 0.8em;
+}
