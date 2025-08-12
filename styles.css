@@ -3,7 +3,9 @@
 body {
     margin: 0;
     font-family: 'Press Start 2P', cursive;
-    background: url('background.jpg') ;
+    background: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
     color: #fff;
     text-align: center;
 }
